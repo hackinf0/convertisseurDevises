@@ -1,0 +1,61 @@
+.MainCard{
+	width: 1200px;
+	height: 400px;
+	margin: 10px;
+	border-radius: 10px;
+	background-color: white;
+	box-shadow: 1px 5px 30px  rgb(126 156 187 / 28%);
+}
+
+.cardTitle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1200px;
+	height: 40px;
+	border-radius: 10px 10px 0px 0px ;
+	background-color: rgb(0 113 235);
+}
+
+
+
+.title{
+	color: white;
+	font-size: 30px;
+}
+
+.InputDevise{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	border-radius: 3px;
+	padding: 0 8px;
+	font-size: 15px;
+	color: black;
+	height: 50px;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	padding-top: 80px;
+	justify-content: space-around;
+}
+
+.englobeAf{
+	justify-content: center;
+}
+
+.Affichage{
+	width: 400px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left: 450px;
+	padding-right: 600px;
+	padding-top: 50px;
+	font-size: 20px;
+	color: white;
+
+}

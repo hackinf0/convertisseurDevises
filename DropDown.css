@@ -1,0 +1,23 @@
+.DropDown{
+	width: 320px;
+	height: 60px;
+	padding: 8px 12px;
+	color: rgb(10 20 110);
+	background-color: rgb(240 245 250);
+	border: 1px solid #dddddd;
+	border-radius: 6px;
+	font-size: 20px;
+	position: relative;
+	top: 15px;
+}
+
+.DropDown:focus,
+.DropDown:hover{
+	outline: none;
+	border: 1px solid #bbbbbb
+}
+
+.DropDown option{
+	background: #ffffffff;
+}
+
